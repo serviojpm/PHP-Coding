@@ -1,3 +1,4 @@
+<?php
 //Cáculo de la Mediana
 function mediana($numeros)
 {
@@ -12,3 +13,4 @@ function mediana($numeros)
 // 6
 //median([1, 2, 3, 6, 7, 9]);
 // 4.5
+?>
