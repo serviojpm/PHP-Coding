@@ -1,3 +1,4 @@
+//Cáculo de la Mediana
 function mediana($numeros)
 {
     sort($numeros);
