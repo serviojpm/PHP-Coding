@@ -1,10 +1,10 @@
-function median($numbers)
+function mediana($numeros)
 {
-    sort($numbers);
-    $totalNumbers = count($numbers);
-    $mid = floor($totalNumbers / 2);
+    sort($numeros);
+    $totalNumeros = count($numeros);
+    $med = floor($totalNumeros / 2);
 
-    return ($totalNumbers % 2) === 0 ? ($numbers[$mid - 1] + $numbers[$mid]) / 2 : $numbers[$mid];
+    return ($totalNumeros % 2) === 0 ? ($numeros[$med - 1] + $numeros[$med]) / 2 : $numeros[$med];
 }
 //Ejecución:
 //median([1, 3, 3, 6, 7, 8, 9]);
